@@ -1,0 +1,17 @@
+*.swp
+*.swo
+deploy.sh
+screenshots/
+tests/qemu/test-i386
+*.map
+build/
+closure-compiler/
+images/
+*.bak
+*.orig
+*.o
+*.bin
+*.img
+*.fixture
+*.fuse_hidden*
+*.DS_Store
