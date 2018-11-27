@@ -1,2 +1,3 @@
-# copys-v86-gh-pages
-modified acpi version of copy v86 for the web
+Js works
+
+javascript emulators and apps worth taking a look at
