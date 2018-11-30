@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<script type="text/javascript" src="js/common.js"/>
+	<script type="text/javascript" src="js/boot.js"/>
+	<title>JSX Boot Test</title>
+	<style>
+	<![CDATA[
+	#dis {
+		list-style-type: none;
+	}
+	
+	#dis, #js, #missing {
+		font-family: Consolas, monospace;
+		font-size: 10pt;
+	}
+	
+	#dis li.undefined {
+		color: grey;
+	}
+	]]>
+	</style>
+</head>
+<body>
+<div>BIOS: <input type="file" id="bios"/></div>
+<div id="crash"/>
+<div>Missing instructions (<span id="missing-count">0</span> total):</div>
+<ul id="missing"/>
+<canvas width="640" height="480" id="tv"/>
+</body>
+</html>

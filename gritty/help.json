@@ -1,9 +1,0 @@
-{
-    "-h, --help             ": "display this help and exit",
-    "-v, --version          ": "output version information and exit",
-    "--path                 ": "output path of a gritty and exit",
-    "--port                 ": "set port number",
-    "--command              ": "command to run (shell by default)",
-    "--auto-restart         ": "restart command on exit",
-    "--no-auto-restart      ": "do not restart command on exit"
-}
